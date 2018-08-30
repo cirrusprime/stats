@@ -1,0 +1,7 @@
+*.gem
+*.swp
+.jekyll-metadata
+.sass-cache
+_site/
+fontconfig/
+Gemfile.lock
