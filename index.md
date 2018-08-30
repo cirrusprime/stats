@@ -1,1 +1,4 @@
+---
+layout: page
+---
 I'm attempting to get as much statistical stuff in here as possible, in an easily-comprehensible format for my own reference as and when I inevitably forget something simple but necessary.  And ideally it might be useful to someone else out there with similar needs.  We shall see.
