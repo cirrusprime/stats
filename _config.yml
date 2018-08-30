@@ -2,7 +2,7 @@ name: JC Prime
 title: JC Prime
 tagline: Personal pages of pointless plop
 description: Personal pages of pointless plop
-url: https://cirrusprime.github.io/
+url: https://cirrusprime.github.io/stats/
 #google_analytics:
 show_downloads: false
 theme: jekyll-theme-minimal
@@ -14,24 +14,6 @@ plugins:
 # Collections
 #collections_dir: _collections
 collections:
-  code:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  cpp:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  dft:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
   projects:
     output: true
     permalink: /:collection/:name
@@ -45,12 +27,6 @@ collections:
       - values:
           layout: page
   r:
-    output: true
-    permalink: /:collection/:name
-    defaults:
-      - values:
-          layout: page
-  research:
     output: true
     permalink: /:collection/:name
     defaults:
