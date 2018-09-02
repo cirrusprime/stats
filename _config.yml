@@ -14,21 +14,45 @@ plugins:
 # Collections
 #collections_dir: _collections
 collections:
+  basics:
+    output: true
+    permalink: /:collection/:name
+    title: Basics
+    defaults:
+      - values:
+          layout: page
+  bayesian:
+    output: true
+    permalink: /:collection/:name
+    title: Bayesian
+    defaults:
+      - values:
+          layout: page
+  kaggle:
+    output: true
+    permalink: /:collection/:name
+    title: Kaggle
+    defaults:
+      - values:
+          layout: page
   projects:
     output: true
     permalink: /:collection/:name
+    title: Projects
     defaults:
       - values:
           layout: page
   python:
     output: true
     permalink: /:collection/:name
+    title: Python
     defaults:
       - values:
           layout: page
   r:
     output: true
     permalink: /:collection/:name
+    title: R
     defaults:
       - values:
           layout: page
