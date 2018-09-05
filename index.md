@@ -9,10 +9,7 @@ The main textbook I'm working through at the moment is Andy Field's *Discovering
 <div>
 {% assign collections_list = site.collections | where: "label", "collections_list" | first %}
 {% for collection in site.collections %}
-    <h2>{{ collection.label | capitalize }}</h2>
-    {% for doc in site.collection.docs %}
-        <p>{{ doc.title }}, {{ doc.path }}</p>
-    {% endfor %}
+    <h2><a href="{{ collection.url }}">{{ collection.label | capitalize }}</a></h2>
 {% endfor %}
 </div>
 <!-- <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url  | remove_first: '/' }}/index/">{{ node.title }}</a> -->
