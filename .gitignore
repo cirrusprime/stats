@@ -1,5 +1,6 @@
 *.gem
 *.swp
+.ipynb_checkpoints/
 .jekyll-metadata
 .sass-cache
 _site/
