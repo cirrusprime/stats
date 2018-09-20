@@ -16,7 +16,7 @@ plugins:
 collections:
   basics:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection
     title: Basics
     defaults:
       - values:
