@@ -30,13 +30,19 @@ Vector function     | Purpose
 `which.max(vector)` | Return index of highest value in `vector`
 `min(vector)`       | Return lowest value in `vector`
 `which.min(vector)` | Return index of lowest value in `vector`
-`rank(vector)`      | Return rank of each element in `vector` (its position in sorted order)
+`rank(vector)`      | Return rank of each element in `vector` (its position in sorted order); note that rank(-vector) gives ranks in the opposite order
 
 You can also grab multiple separate elements of a vector as a **subset** (using single square brackets) with e.g. `vector[c(1, 3)]`, which will give you the first and third elements of `vector` concatenated into a new vector (subset).
 
 Vectors can be **coerced**, which means their elements get forced into being the same type, even if they appear as different types to start with.  For example, feeding a vector a bunch of both numeric and character variables will produce a coerced vector that contains the originally-numeric variables as character strings instead, and the vector class will be `character`.  However, if R fails to coerce something, it will be replaced by `NA`, the value for missing data.
 
 You can also force conversions yourself, using functions like `as.numeric()` and `as.character()`.
+
+* Vectors operate element-wise
+* You can use logical operators to subset and index vectors
+* `which` returns the indices in a vector for which the given logical expression is `TRUE`
+* `match` checks for matches of stuff in a given vector and returns the index of the matches
+* `%in%` checks whether something is contained within a vector, and returns a vector of booleans corresponding to each of the somethings passed to it to check
 
 ## Integers
 
